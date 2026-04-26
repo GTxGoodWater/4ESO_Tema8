@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tema 8 – En un Mundo Frío</title>
+
+  <!-- Fuente Lexend -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Fuente Lilita One para el título -->
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Lexend", sans-serif;
+      background: linear-gradient(135deg, #dbeafe, #f8fafc);
+    }
+
+    .slide {
+      width: 1100px;
+      height: 720px;
+      margin: 40px auto;
+      padding: 40px 50px;
+      background: #ffffff;
+      border-radius: 26px;
+      box-shadow: 0 14px 40px rgba(0,0,0,0.15);
+      border: 1px solid rgba(0,0,0,0.05);
+      page-break-after: always;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      width: 240px;
+      height: 240px;
+      background: rgba(59,130,246,0.18);
+      border-radius: 50%;
+      filter: blur(2px);
+    }
+
+    .slide::after {
+      content: "";
+      position: absolute;
+      bottom: -60px;
+      left: -60px;
+      width: 180px;
+      height: 180px;
+      background: rgba(96,165,250,0.15);
+      border-radius: 50%;
+      filter: blur(2px);
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: 34px;
+      color: #0d47a1;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    h2 {
+      margin: 18px 0 8px;
+      font-size: 21px;
+      color: #c62828;
+      font-weight: 600;
+    }
+
+    .item {
+      margin: 8px 0;
+      padding: 12px 14px;
+      background: #f1f5ff;
+      border-left: 6px solid #1e88e5;
+      border-radius: 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e3f2fd;
+      color: #0d47a1;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-right: 8px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .formula {
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: #fff7d6;
+      border-left: 7px solid #ffb300;
+      border-radius: 14px;
+      font-size: 14px;
+      color: #6d4c41;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+    }
+
+    .formula b {
+      color: #e65100;
+    }
+
+    .copyright {
+      position: absolute;
+      bottom: 18px;
+      right: 26px;
+      font-size: 13px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+
+    /* PORTADA CENTRADA */
+    .portada {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      text-align: center;
+    }
+
+    .portada h1 {
+      font-family: "Lilita One", cursive;
+      font-size: 80px;
+      color: #0d47a1;
+      text-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      margin-bottom: 10px;
+    }
+
+    .portada h2 {
+      font-size: 36px;
+      color: #1e3a8a;
+      margin-top: 0;
+      letter-spacing: 1px;
+    }
+
+    .portada .sub {
+      font-size: 20px;
+      color: #475569;
+      margin-top: 20px;
+    }
+
+    @media print {
+      body { background: #ffffff; }
+      .slide { box-shadow: none; border-radius: 0; width: 100%; height: auto; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PORTADA -->
+  <div class="slide portada">
+    <h1>TEMA 8</h1>
+    <h2>En un Mundo Frío</h2>
+    <p class="sub">Descolonización • Guerra Fría • Bloques • Crisis del 73 • Caída del bloque comunista</p>
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- DIAPOSITIVA 2 ARREGLADA -->
+  <div class="slide">
+    <h1>🌍 La descolonización: causas y proceso</h1>
+
+    <h2>Fin del mundo colonial</h2>
+    <div class="item">
+      <span class="tag">Definición</span>
+      Proceso desde 1945 que provoca la desaparición de los imperios coloniales europeos y la independencia de más de cincuenta países.
+    </div>
+
+    <h2>Causas principales</h2>
+    <div class="item">
+      <span class="tag">II Guerra Mundial</span>
+      Las colonias aportan soldados y recursos; las metrópolis quedan debilitadas y pierden prestigio.
+    </div>
+    <div class="item">
+      <span class="tag">Nacionalismos</span>
+      Movimientos independentistas inspirados en ideas liberales y marxistas.
+    </div>
+    <div class="item">
+      <span class="tag">Europa débil</span>
+      Las potencias priorizan reconstrucción interna.
+    </div>
+    <div class="item">
+      <span class="tag">Superpotencias</span>
+      EE. UU. y URSS apoyan la descolonización para ganar influencia.
+    </div>
+
+    <h2>Procedimientos</h2>
+    <div class="item"><span class="tag">Pactos</span>Independencias negociadas (muchas británicas y francesas).</div>
+    <div class="item"><span class="tag">Guerras</span>Indochina, Argelia, Indonesia.</div>
+    <div class="item"><span class="tag">Mixtos</span>India, Indonesia.</div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Guerra Mundial + nacionalismos + Europa débil + presión de EE. UU./URSS → fin del colonialismo.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- RESTO DE DIAPOSITIVAS (SIN CAMBIOS) -->
+
+
+  <!-- 3. TERCER MUNDO -->
+  <div class="slide">
+    <h1>🌐 Consecuencias: el «Tercer Mundo»</h1>
+
+    <h2>Problemas políticos</h2>
+    <div class="item">
+      <span class="tag">Fronteras artificiales</span>
+      Las fronteras trazadas por las potencias coloniales no respetan etnias ni culturas, lo que provoca guerras, golpes de Estado y conflictos internos.
+    </div>
+    <div class="item">
+      <span class="tag">Dictaduras</span>
+      Muchos países acaban bajo dictaduras militares corruptas y violentas, que se justifican como garantes del orden.
+    </div>
+
+    <h2>Problemas económicos</h2>
+    <div class="item">
+      <span class="tag">Neocolonialismo</span>
+      Aunque son independientes, muchos países siguen dependiendo económicamente de sus antiguas metrópolis o de nuevas potencias (EE. UU., URSS). Se dan intercambios desiguales, exportación de materias primas baratas e importación de productos caros, y fuerte endeudamiento externo.
+    </div>
+
+    <h2>Problemas sociales</h2>
+    <div class="item">
+      <span class="tag">Pobreza</span>
+      Fuerte crecimiento demográfico, hambre, desnutrición, carencias sanitarias, analfabetismo y bajo nivel de vida.
+    </div>
+
+    <h2>Concepto de «Tercer Mundo»</h2>
+    <div class="item">
+      <span class="tag">Definición</span>
+      Conjunto de países surgidos de la descolonización y otros atrasados que, desde 1952, se denominan «Tercer Mundo» por su semejanza con el Tercer Estado antes de la Revolución Francesa y por su decisión de no alinearse ni con el bloque capitalista (primer mundo) ni con el comunista (segundo mundo).
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Tercer Mundo = independencia política, pero pobreza, dependencia económica y no alineamiento.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 4. FORMACIÓN DE BLOQUES Y GUERRA FRÍA -->
+  <div class="slide">
+    <h1>🧊 Un mundo dividido en bloques</h1>
+
+    <h2>Bloque capitalista</h2>
+    <div class="item">
+      <span class="tag">Liderazgo</span>
+      Dirigido por EE. UU., incluye Europa occidental y Japón. Se basa en democracia parlamentaria y economía capitalista.
+    </div>
+    <div class="item">
+      <span class="tag">OTAN</span>
+      Alianza militar creada en 1949 para la defensa mutua frente al bloque comunista.
+    </div>
+    <div class="item">
+      <span class="tag">Plan Marshall</span>
+      Programa de ayuda económica (1947) para reconstruir Europa y frenar el avance del comunismo.
+    </div>
+
+    <h2>Bloque comunista</h2>
+    <div class="item">
+      <span class="tag">Liderazgo</span>
+      Encabezado por la URSS, integra los países de Europa central y oriental ocupados por el Ejército Rojo tras la guerra.
+    </div>
+    <div class="item">
+      <span class="tag">Pacto de Varsovia</span>
+      Alianza militar creada en 1955 para coordinar las fuerzas armadas del bloque comunista.
+    </div>
+    <div class="item">
+      <span class="tag">CAME</span>
+      Consejo de Ayuda Mutua Económica, organización para coordinar las economías socialistas.
+    </div>
+
+    <h2>Guerra Fría</h2>
+    <div class="item">
+      <span class="tag">Definición</span>
+      Enfrentamiento político, económico, social y propagandístico entre EE. UU. y la URSS (1947‑1991), sin guerra directa entre ambas, pero con conflictos locales.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> OTAN + Marshall = bloque capitalista; Varsovia + CAME = bloque comunista; tensión global sin guerra directa.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 5. CONFLICTOS DE LA GUERRA FRÍA -->
+  <div class="slide">
+    <h1>⚔️ Conflictos de la Guerra Fría</h1>
+
+    <h2>Bloqueo de Berlín (1948‑1949)</h2>
+    <div class="item">
+      <span class="tag">Contexto</span>
+      Los Aliados occidentales unifican sus zonas en Alemania para crear la RFA. Stalin responde proclamando la RDA y bloqueando los accesos terrestres a Berlín occidental.
+    </div>
+    <div class="item">
+      <span class="tag">Puente aéreo</span>
+      EE. UU. y sus aliados abastecen la ciudad por aire hasta que la URSS levanta el bloqueo en 1949.
+    </div>
+
+    <h2>Guerra de Corea (1950‑1953)</h2>
+    <div class="item">
+      <span class="tag">División</span>
+      Corea queda dividida por el paralelo 38: norte comunista (URSS) y sur prooccidental (EE. UU.).
+    </div>
+    <div class="item">
+      <span class="tag">Guerra</span>
+      Corea del Norte invade el sur; intervienen fuerzas de la ONU lideradas por EE. UU. El conflicto termina con un armisticio que mantiene la división.
+    </div>
+
+    <h2>Construcción del muro de Berlín (1961)</h2>
+    <div class="item">
+      <span class="tag">Muro</span>
+      La RDA levanta un muro de unos 160 km para impedir la huida de población hacia Berlín occidental. Su derribo en 1989 simboliza el fin de la Guerra Fría.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Berlín bloqueado → puente aéreo; Corea dividida → guerra sin reunificación; muro de Berlín → símbolo de la división y su caída del fin.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 6. CUBA, VIETNAM Y DESARME -->
+  <div class="slide">
+    <h1>🚀 Cuba, Vietnam y el desarme</h1>
+
+    <h2>Crisis de los misiles en Cuba (1962)</h2>
+    <div class="item">
+      <span class="tag">Revolución cubana</span>
+      En 1959, Fidel Castro derriba la dictadura de Batista y establece un régimen comunista aliado de la URSS.
+    </div>
+    <div class="item">
+      <span class="tag">Misiles soviéticos</span>
+      La URSS intenta instalar misiles nucleares en Cuba. EE. UU. responde con un bloqueo naval. La URSS retira los misiles y se evita la guerra nuclear.
+    </div>
+
+    <h2>Guerra de Vietnam (1963‑1976)</h2>
+    <div class="item">
+      <span class="tag">División</span>
+      Tras la independencia de Francia, Vietnam se divide en norte comunista y sur prooccidental.
+    </div>
+    <div class="item">
+      <span class="tag">Intervención</span>
+      EE. UU. apoya a Vietnam del Sur. La guerra se alarga, provoca rechazo interno en EE. UU. y termina con la retirada estadounidense (1973) y la reunificación bajo un régimen comunista (1976).
+    </div>
+
+    <h2>Acciones por la paz y el desarme</h2>
+    <div class="item">
+      <span class="tag">No Alineados</span>
+      Movimiento de Países No Alineados (1961): países que no quieren integrarse en ninguno de los dos bloques y defienden la paz y la independencia.
+    </div>
+    <div class="item">
+      <span class="tag">SALT</span>
+      Acuerdos SALT (1972 y 1979) entre EE. UU. y la URSS para limitar el armamento nuclear estratégico.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Cuba = tensión nuclear máxima; Vietnam = guerra larga y derrota política de EE. UU.; No Alineados + SALT = búsqueda de paz y equilibrio.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 7. BLOQUE CAPITALISTA 1945-1973 -->
+  <div class="slide">
+    <h1>💼 Bloque capitalista 1945‑1973</h1>
+
+    <h2>Hegemonía de Estados Unidos</h2>
+    <div class="item">
+      <span class="tag">Superpotencia</span>
+      Tras la II Guerra Mundial, EE. UU. se convierte en la primera potencia mundial y abandona el aislacionismo, liderando el bloque occidental.
+    </div>
+    <div class="item">
+      <span class="tag">Política</span>
+      Sistema bipartidista (Demócratas y Republicanos). Doctrina Truman de contención del comunismo, continuada por Eisenhower. Kennedy impulsa una política más flexible hasta su asesinato.
+    </div>
+    <div class="item">
+      <span class="tag">Conflictos internos</span>
+      Lucha por los derechos civiles de la población negra (Martin Luther King) y fuerte contestación a la guerra de Vietnam.
+    </div>
+
+    <h2>Economía estadounidense</h2>
+    <div class="item">
+      <span class="tag">Crecimiento</span>
+      Rápido crecimiento económico, mecanización de la agricultura, expansión de la industria, transporte, banca, turismo y comercio. Surgen grandes multinacionales y se generaliza el consumo de masas.
+    </div>
+
+    <h2>Europa occidental</h2>
+    <div class="item">
+      <span class="tag">Reconstrucción</span>
+      Democracia parlamentaria en la mayoría de países. El Plan Marshall impulsa la recuperación, especialmente en la RFA (creada en 1949).
+    </div>
+    <div class="item">
+      <span class="tag">Estado del bienestar</span>
+      Se desarrollan sistemas de bienestar social (sanidad, educación, pensiones).
+    </div>
+    <div class="item">
+      <span class="tag">Integración</span>
+      Nacen la CECA (1951) y la CEE (1957) con seis países fundadores (Alemania, Francia, Italia y Benelux). En 1973 se incorporan nuevos miembros.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> EE. UU. lidera el bloque capitalista; Europa se reconstruye con Marshall + CEE; consumo de masas y Estado del bienestar.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 8. CAMBIOS SOCIALES EN EL BLOQUE CAPITALISTA -->
+  <div class="slide">
+    <h1>🎸 Cambios sociales en el bloque capitalista</h1>
+
+    <h2>Nacimiento de la sociedad de consumo</h2>
+    <div class="item">
+      <span class="tag">Consumo</span>
+      Aumento del nivel de vida, expansión de electrodomésticos, automóviles, vivienda en masa, centros comerciales y publicidad.
+    </div>
+    <div class="item">
+      <span class="tag">Mujer</span>
+      Mayor incorporación de la mujer al trabajo asalariado, aunque con desigualdades.
+    </div>
+
+    <h2>Modas y cultura juvenil</h2>
+    <div class="item">
+      <span class="tag">Modas</span>
+      Pelo largo, minifalda, música rock, televisión como medio de masas.
+    </div>
+
+    <h2>Movimientos sociales</h2>
+    <div class="item">
+      <span class="tag">Derechos civiles</span>
+      En EE. UU., lucha contra la segregación racial (Rosa Parks, Martin Luther King, Malcolm X).
+    </div>
+    <div class="item">
+      <span class="tag">Pacifismo</span>
+      Protestas contra la guerra de Vietnam y contra el armamento nuclear.
+    </div>
+    <div class="item">
+      <span class="tag">Feminismo</span>
+      Reivindicación de igualdad de derechos, acceso al trabajo, educación y política.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Más consumo + más juventud organizada + más movimientos sociales = cambio cultural profundo en Occidente.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 9. CRISIS DEL 73 Y RESPUESTAS -->
+  <div class="slide">
+    <h1>⛽ Crisis económica de 1973 y sus consecuencias</h1>
+
+    <h2>Causas</h2>
+    <div class="item">
+      <span class="tag">Petróleo</span>
+      La OPEP decide encarecer el precio del petróleo y usarlo como arma política frente a los países que apoyan a Israel en el conflicto árabe‑israelí.
+    </div>
+    <div class="item">
+      <span class="tag">Modelo agotado</span>
+      Las industrias basadas en combustibles fósiles y producción masiva muestran signos de agotamiento.
+    </div>
+
+    <h2>Consecuencias</h2>
+    <div class="item">
+      <span class="tag">Economía</span>
+      Elevada inflación, caída de la producción industrial, aumento del desempleo y debilitamiento del Estado del bienestar.
+    </div>
+    <div class="item">
+      <span class="tag">Nuevas potencias</span>
+      Surgen nuevas potencias industriales, como Argentina (1973‑1986) y Chile (1973‑1990).
+    </div>
+
+    <h2>Medidas frente a la crisis</h2>
+    <div class="item">
+      <span class="tag">Neoliberalismo</span>
+      Privatización de empresas públicas, reducción del gasto público y de impuestos, liberalización del comercio internacional (Thatcher en Reino Unido, Reagan en EE. UU.).
+    </div>
+    <div class="item">
+      <span class="tag">Reestructuración</span>
+      Sustitución de sectores tradicionales (siderurgia, manufacturas pesadas) por sectores tecnológicos y especializados.
+    </div>
+    <div class="item">
+      <span class="tag">Energía</span>
+      Ahorro energético y búsqueda de fuentes alternativas al petróleo.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Petróleo caro → crisis económica → paro + inflación → neoliberalismo + reestructuración + nuevas energías.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 10. BLOQUE COMUNISTA 1945-1982 -->
+  <div class="slide">
+    <h1>🔴 Bloque comunista 1945‑1982</h1>
+
+    <h2>URSS y «democracias populares»</h2>
+    <div class="item">
+      <span class="tag">Desestalinización</span>
+      Tras la muerte de Stalin (1953), Nikita Jrushchov (1953‑1964) condena el culto a la personalidad y permite cierta libertad de expresión.
+    </div>
+    <div class="item">
+      <span class="tag">Brezhnev</span>
+      Leonid Brezhnev (1964‑1982) frena las reformas y mantiene un sistema rígido.
+    </div>
+    <div class="item">
+      <span class="tag">Democracias populares</span>
+      En Europa central y oriental se implantan regímenes comunistas controlados por la URSS. Los intentos de reforma (Hungría 1956, Checoslovaquia 1968) son reprimidos por tropas soviéticas.
+    </div>
+
+    <h2>Economía y sociedad</h2>
+    <div class="item">
+      <span class="tag">Economía planificada</span>
+      Nacionalizaciones, planificación central y colectivización agraria. Planes quinquenales fijan objetivos de producción.
+    </div>
+    <div class="item">
+      <span class="tag">Estancamiento</span>
+      Desde 1960, la economía soviética se frena por el peso de la industria militar y la falta de incentivos.
+    </div>
+    <div class="item">
+      <span class="tag">Sociedad</span>
+      El Estado controla la vida social y política, pero garantiza empleo, educación, sanidad y cultura, aunque con carencias y baja calidad.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> URSS = partido único + economía planificada + control social, pero con estancamiento y falta de libertades.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 11. CHINA Y CUBA -->
+  <div class="slide">
+    <h1>🇨🇳 China y 🇨🇺 Cuba en el bloque comunista</h1>
+
+    <h2>China comunista</h2>
+    <div class="item">
+      <span class="tag">Guerra civil</span>
+      En 1945 estalla la guerra civil entre el Partido Nacionalista de Chiang Kai‑shek y el Partido Comunista de Mao Zedong. En 1949 vence el comunismo.
+    </div>
+    <div class="item">
+      <span class="tag">Dos Chinas</span>
+      Se crean la República Popular China (continental) y la República de China (Taiwán), bajo régimen nacionalista.
+    </div>
+    <div class="item">
+      <span class="tag">Gran Salto Adelante</span>
+      Desde 1958, intento de desarrollo acelerado de industria y agricultura; fracasa y provoca crisis.
+    </div>
+    <div class="item">
+      <span class="tag">Revolución Cultural</span>
+      (1966‑1976) Campaña para reforzar el comunismo, que somete educación e industria al control ideológico y provoca caos social.
+    </div>
+
+    <h2>Revolución cubana</h2>
+    <div class="item">
+      <span class="tag">Batista</span>
+      Dictadura de Fulgencio Batista hasta 1959.
+    </div>
+    <div class="item">
+      <span class="tag">Fidel Castro</span>
+      Lidera la revolución que derriba a Batista y establece la República de Cuba bajo un régimen comunista aliado de la URSS.
+    </div>
+    <div class="item">
+      <span class="tag">Partido único</span>
+      Se crea el Partido Unido de la Revolución Socialista de Cuba. Cuba se convierte en foco revolucionario en América Latina.
+    </div>
+    <div class="item">
+      <span class="tag">Che Guevara</span>
+      Figura clave de la revolución, participa en la expansión del movimiento revolucionario hasta su muerte en Bolivia (1967).
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> China: guerra civil → comunismo → Gran Salto → Revolución Cultural; Cuba: Batista → Fidel → régimen comunista aliado de la URSS.
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+  <!-- 12. GUERRA FRÍA FINAL Y CAÍDA DEL BLOQUE COMUNISTA -->
+  <div class="slide">
+    <h1>🧩 Final de la Guerra Fría y caída del bloque comunista</h1>
+
+    <h2>Recrudecimiento (1977‑1985)</h2>
+    <div class="item">
+      <span class="tag">Carrera armamentística</span>
+      La URSS despliega misiles SS‑20 con cabezas nucleares que amenazan Europa occidental e incrementa su intervención exterior (Afganistán 1979, conflictos africanos).
+    </div>
+    <div class="item">
+      <span class="tag">EE. UU.</span>
+      Bajo Ronald Reagan (1981‑1989), aumenta el gasto militar, lanza la Iniciativa de Defensa Estratégica («guerra de las galaxias») y apoya dictaduras anticomunistas en América Latina.
+    </div>
+
+    <h2>Reformas de Gorbachov (1985‑1991)</h2>
+    <div class="item">
+      <span class="tag">Perestroika</span>
+      Reestructuración económica: intenta introducir elementos de mercado y modernizar la economía soviética.
+    </div>
+    <div class="item">
+      <span class="tag">Glasnost</span>
+      Política de transparencia y apertura informativa: se permite mayor libertad de expresión y crítica al sistema.
+    </div>
+    <div class="item">
+      <span class="tag">Política exterior</span>
+      Distensión con EE. UU., acuerdos de desarme nuclear, retirada de Afganistán y de otros conflictos, y concesión de mayor autonomía a las repúblicas populares.
+    </div>
+
+    <h2>Caída del bloque comunista</h2>
+    <div class="item">
+      <span class="tag">1989</span>
+      Caen los regímenes comunistas en Polonia, Hungría, Checoslovaquia, Rumanía y Bulgaria. Se derriba el muro de Berlín y se reunifica Alemania en 1990.
+    </div>
+    <div class="item">
+      <span class="tag">1991</span>
+      Las repúblicas soviéticas se independizan; fracasa un golpe de Estado contra Gorbachov y la URSS se disuelve. Nace la Federación Rusa, presidida por Borís Yeltsin. EE. UU. queda como única superpotencia.
+    </div>
+
+    <div class="formula">
+      <b>Fórmula rápida:</b> Más armas → crisis interna → perestroika + glasnost → caída de los regímenes comunistas → fin de la URSS (1991).
+    </div>
+
+    <div class="copyright">© GoodFire AI</div>
+  </div>
+
+</body>
+</html>
